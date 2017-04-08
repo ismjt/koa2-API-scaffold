@@ -1,5 +1,5 @@
 import path from 'path'
-import db from 'db'
+let db = require('./db')
 
 // 系统配置
 export let System = {
