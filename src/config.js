@@ -1,6 +1,6 @@
 import path from 'path'
-let db = require('./db')
-let email = require('./email')
+import email from './email'
+import db from './db'
 
 // 系统配置
 export let System = {

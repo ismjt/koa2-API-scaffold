@@ -52,7 +52,7 @@ export let getSqlConnection = () => {
 // var Promise = require("bluebird")
 // Promise.using(getSqlConnection(), function(connection) {
 //     return connection.query('select `name` from hobbits').then(function(row) {
-//         return process(rows)
+//         return process(row)
 //     }).catch(function(error) {
 //         console.log(error)
 //     })
