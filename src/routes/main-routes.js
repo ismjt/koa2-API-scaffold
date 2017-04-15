@@ -10,7 +10,7 @@ router
   .all('/upload', controllers.upload.default)
   .get('/api/:name', controllers.api.Get)
   .get('/user', controllers.user.Get)
-  .get('/news', controllers.news.Get)
+  .get('/parknews', controllers.news.Get)
   .post('/api/:name', controllers.api.Post)
   .put('/api/:name', controllers.api.Put)
   .del('/api/:name', controllers.api.Delect)
